@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'UniSansBold';
+    src: url('UniSansBold.eot'); /* IE9 Compat Modes */
+    src: url('UniSansBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('UniSansBold.woff') format('woff'), /* Modern Browsers */
+         url('UniSansBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('UniSansBold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'UniSansRegular';
+    src: url('UniSansRegular.eot'); /* IE9 Compat Modes */
+    src: url('UniSansRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('UniSansRegular.woff') format('woff'), /* Modern Browsers */
+         url('UniSansRegular.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('UniSansRegular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+*{
+	font-family:"UniSansRegular";
+	font-size: 20px;
+}
+
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+.simpleButton{
+	border:0em;
+	background-color: inherit;
+	&:hover{
+		border:0ch;
+	}
+}
+
+.textBold{
+    font-family: "UniSansBold";
+    font-size: 32px;
+}
+
+.colorHeader{
+    color:#1FB3AF;
+}
+
+.button {
+    color:#1FB3AF;
+}
